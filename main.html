@@ -19,9 +19,13 @@
                 <a href="#">Contact</a>
             </div>
             <div class=" right-head">
-                <div class="goto-cart">
-                    <img src="./cart.png.png" >
-                </div>
+                <a href="./cart.html">
+                    <div class="goto-cart" id="cart-click">
+                        <img src="./cart.png.png" >
+                        <span id="cart-badge" class="badge">0</span>
+
+                    </div>
+                </a>
                 <div class="id">
                     <img src="./circle-png-182.png " >
                 </div>
@@ -46,7 +50,10 @@
                         </div>
                         <div class="product-desc">
                            <p> RK ROYAL KLUDGE RK61 Wireless 60% Mechanical <br>Gaming Keyboard, Red Switch, Black Case </p>
-                            <p>Rs.12,000</p>
+                           <div class="botom">
+                                <p>Rs.12,000</p>
+                                <button id="cart-add" class="addtocart">Add to cart</button>
+                            </div>  
                         </div>
                         
                     </div>
@@ -72,6 +79,22 @@
             </div>
         </div>
     </div>
-    
+    <script>
+        let cart = document.getElementById("cart-add");
+        const cartBadge = document.getElementById("cart-badge");
+        let cartcount = 0;
+        
+
+        cart.addEventListener('click',()=> {
+            cartcount ++;
+            cartBadge.textContent = cartcount;
+            cartBadge.style.display = "inline-block";
+        }
+    );
+    // let cartclick = document.getElementById("cart-click")
+    // cartclick.addEventListener("click",function(){
+    //     window.location.href('./cart.html');
+    // });
+    </script>
 </body>
 </html>
