@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Document</title>
 </head>
 <body  class="body">
@@ -79,22 +80,6 @@
             </div>
         </div>
     </div>
-    <script>
-        let cart = document.getElementById("cart-add");
-        const cartBadge = document.getElementById("cart-badge");
-        let cartcount = 0;
-        
-
-        cart.addEventListener('click',()=> {
-            cartcount ++;
-            cartBadge.textContent = cartcount;
-            cartBadge.style.display = "inline-block";
-        }
-    );
-    // let cartclick = document.getElementById("cart-click")
-    // cartclick.addEventListener("click",function(){
-    //     window.location.href('./cart.html');
-    // });
-    </script>
+   <script src="./main.js"></script>
 </body>
 </html>
