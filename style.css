@@ -151,3 +151,102 @@
     font-size: 14px;
     display: none; /* Initially hidden */
 }
+.signup-bgwrapper{
+    background-image: url('./artistic-blurry-colorful-wallpaper-background.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-box{
+    width: 400px;
+    height: 550px;
+    background-color: #000000;
+    
+}
+.signup-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signup-title h1{
+    margin:0px;
+    color: white;
+    font-weight: lighter;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup-title h2{
+    margin:0px;
+    color: white;
+    font-size:50px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.signup-form input{
+    text-decoration: none;
+    height: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 0 0;
+    border:0;
+}
+.signup-username{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #A63B43;
+
+}
+.signup-username img{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    margin-left:5px;
+    
+}
+.signup-password img{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    margin-left:5px;
+    
+}
+.signup-password{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: brown;
+
+
+}
+.signup-button{
+    border:0px;
+    height: 44px;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+}
+
+
