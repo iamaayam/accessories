@@ -219,8 +219,27 @@
     margin-left:5px;
     
 }
+
 .signup-password img{
     height: 40px;
+    width: 40px;
+    padding: 0px;
+    margin-left:5px;
+    
+}
+.signup-email{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #A63B43;
+
+}
+.signup-email img{
+    height: 30px;
     width: 40px;
     padding: 0px;
     margin-left:5px;
@@ -247,6 +266,104 @@
     background-color: brown;
     color: white;
     font-size: 15px;
+}
+.login-username{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #A63B43;
+
+}
+.login-username img{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    margin-left:5px;
+    
+}
+
+.login-password img{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    margin-left:5px;
+    
+}
+.login-password{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: brown;
+
+
+}
+.login-button{
+    border:0px;
+    height: 44px;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+}
+.login-box{
+    width: 400px;
+    height: 550px;
+    background-color: #000000;
+    
+}
+.login-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-title h1{
+    margin:0px;
+    color: white;
+    font-weight: lighter;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login-title h2{
+    margin:0px;
+    color: white;
+    font-size:50px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.login-form input{
+    text-decoration: none;
+    height: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 0 0;
+    border:0;
+}
+.login-bgwrapper{
+    background-image: url('./artistic-blurry-colorful-wallpaper-background.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
